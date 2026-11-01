@@ -387,4 +387,19 @@
     <string name="lf_coach_a_fallback">Офлайн режимдемін — «мойын», «жоспар», «қалып» сұрап көріңіз</string>
     <string name="lf_coach_placeholder">Сұрақ жазыңыз…</string>
     <string name="lf_coach_send">Жіберу</string>
+    <string name="lf_profile_info">Профиль</string>
+    <string name="lf_nick">Аты</string>
+    <string name="lf_height">Бой (см)</string>
+    <string name="lf_weight">Салмақ (кг)</string>
+    <string name="lf_goal">Мақсат</string>
+    <string name="lf_goal_slim">Арықтау</string>
+    <string name="lf_goal_posture2">Қалып</string>
+    <string name="lf_goal_relax">Демалу</string>
+    <string name="lf_save_profile">Сақтау</string>
+    <string name="lf_bmi">BMI</string>
+    <string name="lf_bmi_low">Арық</string>
+    <string name="lf_bmi_ok">Қалыпты</string>
+    <string name="lf_bmi_high">Артық салмақ</string>
+    <string name="lf_bmi_fat">Семіздік</string>
+    <string name="lf_bmi_bad">Дұрыс бой мен салмақ енгізіңіз</string>
 </resources>

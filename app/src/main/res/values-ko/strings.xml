@@ -387,4 +387,19 @@
     <string name="lf_coach_a_fallback">오프라인 모드예요 — 목·계획·자세 질문을 추천해요</string>
     <string name="lf_coach_placeholder">질문을 입력하세요…</string>
     <string name="lf_coach_send">보내기</string>
+    <string name="lf_profile_info">프로필</string>
+    <string name="lf_nick">닉네임</string>
+    <string name="lf_height">키 (cm)</string>
+    <string name="lf_weight">몸무게 (kg)</string>
+    <string name="lf_goal">목표</string>
+    <string name="lf_goal_slim">다이어트</string>
+    <string name="lf_goal_posture2">자세 교정</string>
+    <string name="lf_goal_relax">휴식</string>
+    <string name="lf_save_profile">저장</string>
+    <string name="lf_bmi">BMI</string>
+    <string name="lf_bmi_low">저체중</string>
+    <string name="lf_bmi_ok">정상</string>
+    <string name="lf_bmi_high">과체중</string>
+    <string name="lf_bmi_fat">비만</string>
+    <string name="lf_bmi_bad">키와 몸무게를 올바르게 입력하세요</string>
 </resources>

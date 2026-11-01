@@ -387,4 +387,19 @@
     <string name="lf_coach_a_fallback">I\'m in offline mode — try another topic like neck, plan or posture</string>
     <string name="lf_coach_placeholder">Type a question…</string>
     <string name="lf_coach_send">Send</string>
+    <string name="lf_profile_info">Profile</string>
+    <string name="lf_nick">Nickname</string>
+    <string name="lf_height">Height (cm)</string>
+    <string name="lf_weight">Weight (kg)</string>
+    <string name="lf_goal">Goal</string>
+    <string name="lf_goal_slim">Tone up</string>
+    <string name="lf_goal_posture2">Posture</string>
+    <string name="lf_goal_relax">Relax</string>
+    <string name="lf_save_profile">Save profile</string>
+    <string name="lf_bmi">BMI</string>
+    <string name="lf_bmi_low">Underweight</string>
+    <string name="lf_bmi_ok">Healthy</string>
+    <string name="lf_bmi_high">Overweight</string>
+    <string name="lf_bmi_fat">Obese</string>
+    <string name="lf_bmi_bad">Enter valid height &amp; weight</string>
 </resources>

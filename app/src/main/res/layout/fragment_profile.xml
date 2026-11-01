@@ -5,7 +5,51 @@
         android:orientation="vertical" android:padding="20dp">
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="@string/lf_lang_title" android:textSize="18sp" android:textStyle="bold" />
+            android:text="@string/lf_profile_info" android:textSize="18sp" android:textStyle="bold" />
+
+        <EditText android:id="@+id/et_nick" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:hint="@string/lf_nick" android:maxLines="1" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:orientation="horizontal">
+            <EditText android:id="@+id/et_h" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:hint="@string/lf_height" android:inputType="numberDecimal"
+                android:maxLines="1" />
+            <EditText android:id="@+id/et_w" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:layout_marginStart="10dp" android:hint="@string/lf_weight"
+                android:inputType="numberDecimal" android:maxLines="1" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:text="@string/lf_goal" android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RadioGroup android:id="@+id/goal_group" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton android:id="@+id/goal_slim" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/lf_goal_slim" />
+            <RadioButton android:id="@+id/goal_posture2" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="14dp"
+                android:text="@string/lf_goal_posture2" />
+            <RadioButton android:id="@+id/goal_relax" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginStart="14dp"
+                android:text="@string/lf_goal_relax" />
+        </RadioGroup>
+
+        <TextView android:id="@+id/tv_bmi" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp"
+            android:textSize="15sp" android:textStyle="bold" />
+
+        <Button android:id="@+id/btn_save_profile" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="10dp"
+            android:text="@string/lf_save_profile" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/lf_lang_title"
+            android:textSize="18sp" android:textStyle="bold" />
 
         <RadioGroup android:id="@+id/lang_group"
             android:layout_width="match_parent" android:layout_height="wrap_content"
