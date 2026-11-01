@@ -78,17 +78,42 @@ public class PlanFragment extends Fragment {
         }
         List<Exercise> pool = ExerciseRepository.all(requireContext());
         PlanEngine.Result r = PlanEngine.build(pool, mood, body);
+        savePlan(r.items, r.modeKey, 0);
+        renderPlan(v, r.items);
+        appendHistory(r.minutes);
+        Toast.makeText(requireContext(), R.string.lf_saved, Toast.LENGTH_SHORT).show();
+    }
 
-        TextView title = v.findViewById(R.id.plan_result_title);
-        title.setText(getString(R.string.plan_generated)
-                + "  ·  " + r.minutes + " " + getString(R.string.lf_minutes_unit));
+    /** 存入今日计划（本地加密）：ids + 分钟数 + 完成进度 */
+    private void savePlan(List<Exercise> items, String modeKey, int done) {
+        JSONArray ids = new JSONArray();
+        int minutes = 0;
+        for (Exercise e : items) {
+            ids.put(e.id);
+            minutes += e.duration;
+        }
+        JSONObject save = new JSONObject();
+        try {
+            save.put("mode", modeKey);
+            save.put("mood", mood);
+            save.put("body", body);
+            save.put("ids", ids);
+            save.put("minutes", minutes);
+            save.put("done", done);
+        } catch (Exception ignored) { }
+        new SecureStore(requireContext()).put(requireContext(), "today_plan", save.toString());
+    }
 
+    /** 渲染计划列表：点击进入播放页，长按移除（v8.0「计划可调整」） */
+    private void renderPlan(View v, List<Exercise> items) {
+        int minutes = 0;
+        for (Exercise e : items) minutes += e.duration;
+        ((TextView) v.findViewById(R.id.plan_result_title)).setText(
+                getString(R.string.plan_generated) + "  ·  " + minutes
+                        + " " + getString(R.string.lf_minutes_unit));
         LinearLayout list = v.findViewById(R.id.plan_list);
         list.removeAllViews();
-
-        JSONArray ids = new JSONArray();
-        for (Exercise e : r.items) {
-            ids.put(e.id);
+        for (Exercise e : items) {
             TextView row = new TextView(requireContext());
             row.setText("  " + e.emoji + " " + e.name
                     + "   " + e.duration + " " + getString(R.string.lf_minutes_unit));
@@ -96,19 +121,46 @@ public class PlanFragment extends Fragment {
             row.setPadding(8, 10, 8, 10);
             row.setOnClickListener(x -> startActivity(
                     new Intent(requireContext(), PlanPlayerActivity.class)));
+            row.setOnLongClickListener(x -> {
+                removeExercise(v, e.id);
+                return true;
+            });
             list.addView(row);
         }
+    }
 
-        JSONObject save = new JSONObject();
+    /** 长按移除动作：同步更新今日计划与总分钟数 */
+    private void removeExercise(View v, int id) {
+        SecureStore s = new SecureStore(requireContext());
+        List<Exercise> all = ExerciseRepository.all(requireContext());
         try {
-            save.put("mode", r.modeKey);
-            save.put("mood", mood);
-            save.put("body", body);
-            save.put("ids", ids);
-            save.put("done", 0);
+            JSONObject plan = new JSONObject(s.get(requireContext(), "today_plan", "{}"));
+            JSONArray ids = plan.optJSONArray("ids");
+            if (ids == null) return;
+            JSONArray kept = new JSONArray();
+            for (int i = 0; i < ids.length(); i++) {
+                if (ids.optInt(i) != id) kept.put(ids.optInt(i));
+            }
+            plan.put("ids", kept);
+            plan.put("done", Math.min(plan.optInt("done", 0), kept.length()));
+            ((LinearLayout) v.findViewById(R.id.plan_list)).removeAllViews();
+            if (kept.length() == 0) {
+                s.put(requireContext(), "today_plan", "{}");
+                ((TextView) v.findViewById(R.id.plan_result_title)).setText(
+                        getString(R.string.lf_plan_empty));
+            } else {
+                List<Exercise> items = new java.util.ArrayList<>();
+                for (Exercise e : all) {
+                    boolean found = false;
+                    for (int i = 0; i < kept.length(); i++) {
+                        if (kept.optInt(i) == e.id) { found = true; break; }
+                    }
+                    if (found) items.add(e);
+                }
+                s.put(requireContext(), "today_plan", plan.toString());
+                renderPlan(v, items);
+            }
+            Toast.makeText(requireContext(), R.string.lf_plan_removed, Toast.LENGTH_SHORT).show();
         } catch (Exception ignored) { }
-        new SecureStore(requireContext()).put(requireContext(), "today_plan", save.toString());
-        appendHistory(r.minutes);
-        Toast.makeText(requireContext(), R.string.lf_saved, Toast.LENGTH_SHORT).show();
     }
 }

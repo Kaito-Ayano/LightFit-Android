@@ -44,7 +44,7 @@ public class ProfileFragment extends Fragment {
         }
 
         TextView ver = v.findViewById(R.id.tv_version);
-        ver.setText(getString(R.string.lf_version) + ": LightFit v1.4 (Java)");
+        ver.setText(getString(R.string.lf_version) + ": LightFit v1.5 (Java)");
 
         v.findViewById(R.id.btn_reset).setOnClickListener(x -> {
             new SecureStore(requireContext()).clear(requireContext());

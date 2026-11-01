@@ -402,4 +402,5 @@
     <string name="lf_bmi_high">Избыток веса</string>
     <string name="lf_bmi_fat">Ожирение</string>
     <string name="lf_bmi_bad">Введите корректные рост и вес</string>
+    <string name="lf_plan_removed">Удалено из плана</string>
 </resources>
