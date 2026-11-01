@@ -31,7 +31,8 @@ public final class LocaleHelper {
         Locale loc = (tag == null || tag.isEmpty())
                 ? Locale.getDefault()
                 : Locale.forLanguageTag(tag);
-        Configuration cfg = new Configuration(loc);
+        Configuration cfg = new Configuration();
+        cfg.setLocale(loc);
         return base.createConfigurationContext(cfg);
     }
 }
