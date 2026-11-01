@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/posture_title" android:textSize="20sp" android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/posture_sub" android:textSize="13sp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:text="@string/lf_assess"
+            android:textSize="16sp" android:textStyle="bold" />
+
+        <CheckBox android:id="@+id/q1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/posture_item_1" />
+        <CheckBox android:id="@+id/q2" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/posture_item_2" />
+        <CheckBox android:id="@+id/q3" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/posture_item_3" />
+        <CheckBox android:id="@+id/q4" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/posture_item_4" />
+        <CheckBox android:id="@+id/q5" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/lf_q_pain" />
+
+        <Button android:id="@+id/btn_assess" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="12dp"
+            android:text="@string/lf_assess" />
+
+        <TextView android:id="@+id/assess_result"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" android:textSize="15sp" />
+
+        <Button android:id="@+id/btn_ai_camera" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="20dp"
+            android:enabled="false" android:text="@string/lf_ai_camera_beta" />
+
+        <LinearLayout android:id="@+id/assess_result_layout"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_marginTop="8dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="@string/posture_history_sub"
+            android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+
+        <TextView android:id="@+id/home_greeting"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/home_subtitle" android:textSize="22sp" android:textStyle="bold" />
+
+        <TextView android:id="@+id/home_plan_state"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="@string/plan_sub" android:textSize="14sp" />
+
+        <Button android:id="@+id/btn_go_plan" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:text="@string/today_plan" />
+
+        <Button android:id="@+id/btn_go_library" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="@string/nav_library" />
+
+        <Button android:id="@+id/btn_go_posture" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="@string/nav_posture" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="28dp" android:text="@string/auth_privacy" android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>

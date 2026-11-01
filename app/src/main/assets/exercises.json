@@ -1,0 +1,1285 @@
+[
+ {
+  "id": 1,
+  "cat": "neck",
+  "emoji": "🐱",
+  "nameZh": "猫牛式颈椎拉伸",
+  "nameEn": "Cat-Cow Neck Stretch",
+  "nameRu": "Растяжка шеи кошка-корова",
+  "nameKk": "Мысық-сиыр мойын созылуы",
+  "duration": 5,
+  "level": "easy",
+  "groups": [
+   "office",
+   "general",
+   "student"
+  ],
+  "tipZh": "缓慢前后摆动，感受颈椎延展",
+  "tipEn": "Slowly move head forward and back",
+  "tipRu": "Медленно двигайте головой вперёд-назад",
+  "tipKk": "Басты баяу алға-артқа жылжытыңыз"
+ },
+ {
+  "id": 2,
+  "cat": "neck",
+  "emoji": "🙆",
+  "nameZh": "肩颈耸肩放松",
+  "nameEn": "Shoulder Shrug Release",
+  "nameRu": "Поднятие плеч для расслабления",
+  "nameKk": "Иық көтеру релаксациясы",
+  "duration": 3,
+  "level": "easy",
+  "groups": [
+   "office",
+   "elderly",
+   "general"
+  ],
+  "tipZh": "肩膀向上耸起保持2秒，缓慢放下",
+  "tipEn": "Shrug up for 2s, slowly release",
+  "tipRu": "Поднимите плечи на 2с, медленно опустите",
+  "tipKk": "Иықты 2 секунд көтеріп, баяу түсіріңіз"
+ },
+ {
+  "id": 3,
+  "cat": "neck",
+  "emoji": "🔄",
+  "nameZh": "胸椎旋转拉伸",
+  "nameEn": "Thoracic Rotation",
+  "nameRu": "Ротация грудного отдела",
+  "nameKk": "Кеуде омыртқасын айналдыру",
+  "duration": 5,
+  "level": "easy",
+  "groups": [
+   "office",
+   "general",
+   "rehab"
+  ],
+  "tipZh": "双臂展开，感受胸椎扭转拉伸",
+  "tipEn": "Arms open, feel the thoracic twist",
+  "tipRu": "Раскройте руки, почувствуйте скручивание",
+  "tipKk": "Қолдарды ашып, бұралуды сезініңіз"
+ },
+ {
+  "id": 4,
+  "cat": "neck",
+  "emoji": "💆",
+  "nameZh": "颈部侧屈拉伸",
+  "nameEn": "Lateral Neck Stretch",
+  "nameRu": "Боковое сгибание шеи",
+  "nameKk": "Мойынды бүйірге созу",
+  "duration": 4,
+  "level": "easy",
+  "groups": [
+   "office",
+   "elderly",
+   "student",
+   "general"
+  ],
+  "tipZh": "头慢慢倒向一侧，保持15秒",
+  "tipEn": "Tilt head to side, hold 15s",
+  "tipRu": "Наклоните голову в сторону, держите 15с",
+  "tipKk": "Басты бүйірге еңкейтіп, 15 секунд ұстаңыз"
+ },
+ {
+  "id": 5,
+  "cat": "neck",
+  "emoji": "🧘",
+  "nameZh": "坐姿颈椎牵引",
+  "nameEn": "Seated Cervical Traction",
+  "nameRu": "Шейное вытяжение сидя",
+  "nameKk": "Отырып мойын созу",
+  "duration": 8,
+  "level": "easy",
+  "groups": [
+   "office",
+   "rehab",
+   "disabled"
+  ],
+  "tipZh": "双手交叉托住后脑，轻轻向上牵引",
+  "tipEn": "Hands behind head, gently lift",
+  "tipRu": "Руки за головой, мягко тяните вверх",
+  "tipKk": "Қолдарды желкеге қойып, жоғары тартыңыз"
+ },
+ {
+  "id": 10,
+  "cat": "posture",
+  "emoji": "🧍",
+  "nameZh": "驼背矫正训练",
+  "nameEn": "Rounded Shoulder Fix",
+  "nameRu": "Коррекция сутулости",
+  "nameKk": "Қисықтықты түзету",
+  "duration": 10,
+  "level": "med",
+  "groups": [
+   "office",
+   "student",
+   "general"
+  ],
+  "tipZh": "激活背部肌群，对抗圆肩",
+  "tipEn": "Activate back muscles to counter rounding",
+  "tipRu": "Активируйте мышцы спины",
+  "tipKk": "Арқа бұлшықеттерін белсендіріңіз"
+ },
+ {
+  "id": 11,
+  "cat": "posture",
+  "emoji": "🦴",
+  "nameZh": "骨盆前倾矫正",
+  "nameEn": "Anterior Pelvic Tilt Fix",
+  "nameRu": "Коррекция наклона таза",
+  "nameKk": "Жамбас алға ауытқуын түзету",
+  "duration": 10,
+  "level": "med",
+  "groups": [
+   "office",
+   "general",
+   "rehab"
+  ],
+  "tipZh": "收紧核心，拉伸髂腰肌",
+  "tipEn": "Engage core, stretch hip flexors",
+  "tipRu": "Напрягите кор, растяните сгибатели бедра",
+  "tipKk": "Өзек бұлшықеттерін тартып, жамбас созыңыз"
+ },
+ {
+  "id": 12,
+  "cat": "posture",
+  "emoji": "⚖️",
+  "nameZh": "高低肩矫正",
+  "nameEn": "Shoulder Imbalance Fix",
+  "nameRu": "Коррекция разных плеч",
+  "nameKk": "Иық теңсіздігін түзету",
+  "duration": 8,
+  "level": "med",
+  "groups": [
+   "general",
+   "rehab"
+  ],
+  "tipZh": "单侧斜方肌拉伸+对侧激活",
+  "tipEn": "Stretch one side, activate the other",
+  "tipRu": "Растяните одну сторону, активируйте другую",
+  "tipKk": "Бір жақты созып, екінші жақты белсендіріңіз"
+ },
+ {
+  "id": 13,
+  "cat": "posture",
+  "emoji": "🦶",
+  "nameZh": "足弓激活训练",
+  "nameEn": "Arch Activation",
+  "nameRu": "Активация свода стопы",
+  "nameKk": "Табан доғасын белсендіру",
+  "duration": 6,
+  "level": "easy",
+  "groups": [
+   "elderly",
+   "general",
+   "rehab"
+  ],
+  "tipZh": "脚趾抓地，感受足弓激活",
+  "tipEn": "Grip floor with toes, feel arch lift",
+  "tipRu": "Захватите пол пальцами, ощутите подъём",
+  "tipKk": "Саусақтарыңызбен еденді ұстаңыз"
+ },
+ {
+  "id": 20,
+  "cat": "slim",
+  "emoji": "🔥",
+  "nameZh": "卧室HIIT减脂",
+  "nameEn": "Bedroom HIIT",
+  "nameRu": "ВИИТ в спальне",
+  "nameKk": "Жатын бөлмедегі ВИИТ",
+  "duration": 15,
+  "level": "med",
+  "groups": [
+   "general",
+   "student"
+  ],
+  "tipZh": "15分钟高效燃脂，无需器械",
+  "tipEn": "15-min efficient fat burn, no equipment",
+  "tipRu": "15 минут жиросжигания без инвентаря",
+  "tipKk": "15 минуттық майды жағу, жабдықсыз"
+ },
+ {
+  "id": 21,
+  "cat": "slim",
+  "emoji": "🚶",
+  "nameZh": "原地踏步减脂",
+  "nameEn": "March in Place",
+  "nameRu": "Ходьба на месте",
+  "nameKk": "Орнында жүру",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "elderly",
+   "pregnant",
+   "disabled",
+   "general"
+  ],
+  "tipZh": "适合所有人的低冲击有氧",
+  "tipEn": "Low-impact cardio for everyone",
+  "tipRu": "Кардио с низкой нагрузкой для всех",
+  "tipKk": "Барлыққа арналған аз соқпалы кардио"
+ },
+ {
+  "id": 22,
+  "cat": "slim",
+  "emoji": "💃",
+  "nameZh": "椅上有氧操",
+  "nameEn": "Chair Aerobics",
+  "nameRu": "Аэробика на стуле",
+  "nameKk": "Орындықтағы аэробика",
+  "duration": 12,
+  "level": "easy",
+  "groups": [
+   "elderly",
+   "disabled",
+   "office",
+   "rehab"
+  ],
+  "tipZh": "坐在椅子上完成，安全有效",
+  "tipEn": "Done seated, safe and effective",
+  "tipRu": "Выполняется сидя, безопасно и эффективно",
+  "tipKk": "Отырып орындалады, қауіпсіз және тиімді"
+ },
+ {
+  "id": 23,
+  "cat": "slim",
+  "emoji": "🏊",
+  "nameZh": "站立游泳操",
+  "nameEn": "Standing Swim Moves",
+  "nameRu": "Стоячие плавательные движения",
+  "nameKk": "Тұрып жүзу қозғалыстары",
+  "duration": 8,
+  "level": "easy",
+  "groups": [
+   "pregnant",
+   "elderly",
+   "general"
+  ],
+  "tipZh": "模拟游泳动作，低冲击全身运动",
+  "tipEn": "Simulate swimming, full-body low-impact",
+  "tipRu": "Имитация плавания, всё тело",
+  "tipKk": "Жүзуді еліктеу, барлық дене"
+ },
+ {
+  "id": 30,
+  "cat": "relax",
+  "emoji": "💨",
+  "nameZh": "腹式呼吸放松",
+  "nameEn": "Diaphragmatic Breathing",
+  "nameRu": "Диафрагмальное дыхание",
+  "nameKk": "Диафрагмалық тыныс алу",
+  "duration": 8,
+  "level": "easy",
+  "groups": [
+   "general",
+   "office",
+   "student",
+   "pregnant",
+   "elderly",
+   "disabled"
+  ],
+  "tipZh": "鼻吸4秒，屏息2秒，口呼6秒",
+  "tipEn": "In 4s, hold 2s, out 6s",
+  "tipRu": "Вдох 4с, задержка 2с, выдох 6с",
+  "tipKk": "Дем алу 4с, ұстау 2с, шығару 6с"
+ },
+ {
+  "id": 31,
+  "cat": "relax",
+  "emoji": "🌙",
+  "nameZh": "睡前助眠序列",
+  "nameEn": "Bedtime Wind-Down",
+  "nameRu": "Расслабление перед сном",
+  "nameKk": "Ұйқы алдындағы релаксация",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "general",
+   "office",
+   "student",
+   "elderly"
+  ],
+  "tipZh": "降低皮质醇，促进褪黑素分泌",
+  "tipEn": "Lower cortisol, promote melatonin",
+  "tipRu": "Снизьте кортизол, стимулируйте мелатонин",
+  "tipKk": "Кортизолды азайтып, мелатонинді ынталандырыңыз"
+ },
+ {
+  "id": 32,
+  "cat": "relax",
+  "emoji": "🧠",
+  "nameZh": "正念冥想引导",
+  "nameEn": "Mindfulness Meditation",
+  "nameRu": "Медитация осознанности",
+  "nameKk": "Зейін медитациясы",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "general",
+   "student",
+   "office",
+   "pregnant"
+  ],
+  "tipZh": "专注当下，释放焦虑",
+  "tipEn": "Focus on the present, release anxiety",
+  "tipRu": "Сосредоточьтесь на настоящем",
+  "tipKk": "Қазіргі сәтке назар аударыңыз"
+ },
+ {
+  "id": 40,
+  "cat": "elderly",
+  "emoji": "👴",
+  "nameZh": "平衡训练防跌倒",
+  "nameEn": "Balance & Fall Prevention",
+  "nameRu": "Тренировка баланса",
+  "nameKk": "Тепе-теңдік жаттығуы",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "elderly"
+  ],
+  "tipZh": "单腿站立，提升本体感觉",
+  "tipEn": "Single-leg stance, improve proprioception",
+  "tipRu": "Стояние на одной ноге",
+  "tipKk": "Бір аяқта тұру, дене сезімін жақсарту"
+ },
+ {
+  "id": 41,
+  "cat": "elderly",
+  "emoji": "🦷",
+  "nameZh": "关节温和活动",
+  "nameEn": "Gentle Joint Mobility",
+  "nameRu": "Мягкая суставная гимнастика",
+  "nameKk": "Буындарды жұмсақ жаттықтыру",
+  "duration": 12,
+  "level": "easy",
+  "groups": [
+   "elderly",
+   "rehab"
+  ],
+  "tipZh": "缓慢画圈，润滑关节软骨",
+  "tipEn": "Slow circles, lubricate joint cartilage",
+  "tipRu": "Медленные круги, смазывают хрящи",
+  "tipKk": "Баяу шеңберлер, буын шеміршектерін майлайды"
+ },
+ {
+  "id": 42,
+  "cat": "elderly",
+  "emoji": "💪",
+  "nameZh": "坐式力量训练",
+  "nameEn": "Seated Strength",
+  "nameRu": "Силовые упражнения сидя",
+  "nameKk": "Отырып күш жаттығуы",
+  "duration": 15,
+  "level": "easy",
+  "groups": [
+   "elderly",
+   "disabled"
+  ],
+  "tipZh": "抵抗肌肉萎缩，维持日常功能",
+  "tipEn": "Resist muscle loss, maintain daily function",
+  "tipRu": "Противостоять атрофии мышц",
+  "tipKk": "Бұлшықет атрофиясына қарсы тұру"
+ },
+ {
+  "id": 43,
+  "cat": "elderly",
+  "emoji": "🌿",
+  "nameZh": "太极基础动作",
+  "nameEn": "Basic Tai Chi Moves",
+  "nameRu": "Базовые движения тайцзи",
+  "nameKk": "Тайцзи негізгі қозғалыстары",
+  "duration": 15,
+  "level": "easy",
+  "groups": [
+   "elderly"
+  ],
+  "tipZh": "流畅缓慢，改善气血循环",
+  "tipEn": "Smooth and slow, improve circulation",
+  "tipRu": "Плавно и медленно, улучшает кровообращение",
+  "tipKk": "Жылдам және баяу, қан айналымын жақсарту"
+ },
+ {
+  "id": 44,
+  "cat": "elderly",
+  "emoji": "🫀",
+  "nameZh": "低强度有氧步行操",
+  "nameEn": "Low-Intensity Walk Exercise",
+  "nameRu": "Ходьба с упражнениями",
+  "nameKk": "Аз қарқынды жаяу жүру жаттығуы",
+  "duration": 20,
+  "level": "easy",
+  "groups": [
+   "elderly",
+   "general"
+  ],
+  "tipZh": "室内原地模拟走路，心肺健康",
+  "tipEn": "Indoor walk simulation, heart health",
+  "tipRu": "Имитация ходьбы в помещении",
+  "tipKk": "Үйде жаяу жүруді еліктеу"
+ },
+ {
+  "id": 50,
+  "cat": "pregnant",
+  "emoji": "🤰",
+  "nameZh": "孕期骨盆底肌训练",
+  "nameEn": "Prenatal Kegel Exercises",
+  "nameRu": "Упражнения Кегеля при беременности",
+  "nameKk": "Жүктілік кезіндегі Кегель жаттығулары",
+  "duration": 8,
+  "level": "easy",
+  "groups": [
+   "pregnant"
+  ],
+  "tipZh": "增强骨盆底，预防产后漏尿",
+  "tipEn": "Strengthen pelvic floor, prevent incontinence",
+  "tipRu": "Укрепите тазовое дно",
+  "tipKk": "Жамбас түбін нығайтыңыз"
+ },
+ {
+  "id": 51,
+  "cat": "pregnant",
+  "emoji": "🧘",
+  "nameZh": "孕期瑜伽拉伸",
+  "nameEn": "Prenatal Yoga Stretches",
+  "nameRu": "Пренатальная йога",
+  "nameKk": "Жүктілік йогасы",
+  "duration": 15,
+  "level": "easy",
+  "groups": [
+   "pregnant"
+  ],
+  "tipZh": "缓解孕期腰背痛，促进心情舒缓",
+  "tipEn": "Relieve back pain, improve mood",
+  "tipRu": "Снимите боль в спине, улучшите настроение",
+  "tipKk": "Арқа ауруын жойып, көңілді жақсартыңыз"
+ },
+ {
+  "id": 52,
+  "cat": "pregnant",
+  "emoji": "💆",
+  "nameZh": "孕期呼吸与放松",
+  "nameEn": "Prenatal Breathing & Relaxation",
+  "nameRu": "Дыхание и расслабление при беременности",
+  "nameKk": "Жүктілік тынысы мен релаксациясы",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "pregnant"
+  ],
+  "tipZh": "分娩准备呼吸法，缓解孕期焦虑",
+  "tipEn": "Birth prep breathing, reduce anxiety",
+  "tipRu": "Дыхание для родов, снижает тревогу",
+  "tipKk": "Туу үшін тыныс алу, алаңдаушылықты азайту"
+ },
+ {
+  "id": 53,
+  "cat": "pregnant",
+  "emoji": "🚶",
+  "nameZh": "孕期散步+手臂操",
+  "nameEn": "Prenatal Walk & Arm Workout",
+  "nameRu": "Ходьба и упражнения для рук при беременности",
+  "nameKk": "Жүктілік кезінде жаяу жүру + қол жаттығуы",
+  "duration": 20,
+  "level": "easy",
+  "groups": [
+   "pregnant"
+  ],
+  "tipZh": "保持体重，改善下肢水肿",
+  "tipEn": "Control weight, reduce leg swelling",
+  "tipRu": "Контроль веса, уменьшение отёков",
+  "tipKk": "Салмақты бақылау, ісінуді азайту"
+ },
+ {
+  "id": 60,
+  "cat": "disabled",
+  "emoji": "♿",
+  "nameZh": "轮椅上肢力量",
+  "nameEn": "Wheelchair Upper Body Strength",
+  "nameRu": "Сила верхней части тела в кресле",
+  "nameKk": "Арбадан жоғарғы дене күші",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "disabled"
+  ],
+  "tipZh": "增强轮椅使用者上肢力量",
+  "tipEn": "Strengthen arms for wheelchair users",
+  "tipRu": "Укрепите руки для пользователей кресел",
+  "tipKk": "Арба пайдаланушылардың қол күшін нығайту"
+ },
+ {
+  "id": 61,
+  "cat": "disabled",
+  "emoji": "🙌",
+  "nameZh": "坐姿核心稳定",
+  "nameEn": "Seated Core Stability",
+  "nameRu": "Устойчивость кора сидя",
+  "nameKk": "Отырып өзек тұрақтылығы",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "disabled",
+   "elderly",
+   "rehab"
+  ],
+  "tipZh": "不依赖双腿，有效锻炼核心肌群",
+  "tipEn": "Core workout without using legs",
+  "tipRu": "Кор без использования ног",
+  "tipKk": "Аяқтарсыз өзек жаттығуы"
+ },
+ {
+  "id": 62,
+  "cat": "disabled",
+  "emoji": "🦾",
+  "nameZh": "单侧肢体代偿训练",
+  "nameEn": "Unilateral Compensation Training",
+  "nameRu": "Тренировка с компенсацией",
+  "nameKk": "Бір жақты өтемақы жаттығуы",
+  "duration": 15,
+  "level": "med",
+  "groups": [
+   "disabled",
+   "rehab"
+  ],
+  "tipZh": "针对单侧肢体障碍设计",
+  "tipEn": "Designed for one-sided limb differences",
+  "tipRu": "Разработан для односторонних нарушений",
+  "tipKk": "Бір жақты мүшелер айырмашылықтарына арналған"
+ },
+ {
+  "id": 63,
+  "cat": "disabled",
+  "emoji": "👁️",
+  "nameZh": "视障友好听觉引导",
+  "nameEn": "Audio-Guided for Visual Impairment",
+  "nameRu": "Аудиоруководство для слабовидящих",
+  "nameKk": "Нашар көрушілерге арналған аудио нұсқаулық",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "disabled"
+  ],
+  "tipZh": "纯语音引导，无需观看屏幕",
+  "tipEn": "Voice-only guidance, no screen needed",
+  "tipRu": "Только голосовое руководство",
+  "tipKk": "Тек дауысты нұсқаулық, экрансыз"
+ },
+ {
+  "id": 64,
+  "cat": "disabled",
+  "emoji": "🦻",
+  "nameZh": "听障手语节奏操",
+  "nameEn": "Deaf-Friendly Rhythm Exercise",
+  "nameRu": "Ритмика для слабослышащих",
+  "nameKk": "Нашар еститіндерге арналған ырғақ жаттығуы",
+  "duration": 12,
+  "level": "easy",
+  "groups": [
+   "disabled"
+  ],
+  "tipZh": "视觉节奏引导，无需听觉",
+  "tipEn": "Visual rhythm, no hearing required",
+  "tipRu": "Визуальный ритм, не нужен слух",
+  "tipKk": "Визуалды ырғақ, есту қажет емес"
+ },
+ {
+  "id": 70,
+  "cat": "rehab",
+  "emoji": "💻",
+  "nameZh": "程序员手腕腱鞘炎康复",
+  "nameEn": "Programmer Wrist Tendonitis Rehab",
+  "nameRu": "Реабилитация запястий программиста",
+  "nameKk": "Бағдарламашы білек сіне қабынуын қалпына келтіру",
+  "duration": 8,
+  "level": "easy",
+  "groups": [
+   "office",
+   "rehab"
+  ],
+  "tipZh": "缓慢旋转腕关节，放松屈肌",
+  "tipEn": "Slowly rotate wrist, relax flexors",
+  "tipRu": "Медленно вращайте запястье",
+  "tipKk": "Білекті баяу айналдырыңыз"
+ },
+ {
+  "id": 71,
+  "cat": "rehab",
+  "emoji": "🎻",
+  "nameZh": "音乐家手指放松",
+  "nameEn": "Musician Finger Relaxation",
+  "nameRu": "Расслабление пальцев для музыкантов",
+  "nameKk": "Музыканттарға арналған саусақ релаксациясы",
+  "duration": 6,
+  "level": "easy",
+  "groups": [
+   "rehab",
+   "general"
+  ],
+  "tipZh": "预防腱鞘炎，拉伸屈伸肌群",
+  "tipEn": "Prevent tendonitis, stretch finger muscles",
+  "tipRu": "Профилактика тендинита",
+  "tipKk": "Тендинитті алдын алу"
+ },
+ {
+  "id": 72,
+  "cat": "rehab",
+  "emoji": "🏗️",
+  "nameZh": "建筑工人腰背康复",
+  "nameEn": "Construction Worker Back Rehab",
+  "nameRu": "Реабилитация спины строителя",
+  "nameKk": "Құрылысшы арқасын қалпына келтіру",
+  "duration": 15,
+  "level": "med",
+  "groups": [
+   "rehab"
+  ],
+  "tipZh": "强化腰背肌，预防腰椎间盘突出",
+  "tipEn": "Strengthen back, prevent disc herniation",
+  "tipRu": "Укрепите спину, предотвратите грыжу",
+  "tipKk": "Арқаны нығайтып, дискінің шығуын болдырмаңыз"
+ },
+ {
+  "id": 73,
+  "cat": "rehab",
+  "emoji": "🍳",
+  "nameZh": "厨师肩颈职业病康复",
+  "nameEn": "Chef Shoulder & Neck Rehab",
+  "nameRu": "Реабилитация шеи повара",
+  "nameKk": "Аспазшы иық-мойын қалпына келтіру",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "rehab"
+  ],
+  "tipZh": "缓解长时间站立导致的肩颈疲劳",
+  "tipEn": "Relieve neck fatigue from prolonged standing",
+  "tipRu": "Снимите усталость шеи от долгого стояния",
+  "tipKk": "Ұзақ тұрудан мойын шаршауын жою"
+ },
+ {
+  "id": 74,
+  "cat": "rehab",
+  "emoji": "🚗",
+  "nameZh": "司机腰椎康复操",
+  "nameEn": "Driver Lower Back Rehab",
+  "nameRu": "Реабилитация поясницы водителя",
+  "nameKk": "Жүргізуші бел омыртқасын қалпына келтіру",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "rehab",
+   "office"
+  ],
+  "tipZh": "缓解长途驾驶腰椎压力",
+  "tipEn": "Relieve lumbar pressure from driving",
+  "tipRu": "Снимите давление на поясницу от вождения",
+  "tipKk": "Жүргізуден бел қысымын жою"
+ },
+ {
+  "id": 75,
+  "cat": "rehab",
+  "emoji": "📚",
+  "nameZh": "教师声带保护操",
+  "nameEn": "Teacher Vocal Cord Protection",
+  "nameRu": "Защита голосовых связок учителя",
+  "nameKk": "Мұғалім дауыс шымылдықтарын қорғау",
+  "duration": 5,
+  "level": "easy",
+  "groups": [
+   "rehab",
+   "general"
+  ],
+  "tipZh": "放松喉部肌肉，保护声带",
+  "tipEn": "Relax throat muscles, protect vocal cords",
+  "tipRu": "Расслабьте горло, защитите голосовые связки",
+  "tipKk": "Тамақ бұлшықеттерін босатыңыз"
+ },
+ {
+  "id": 76,
+  "cat": "rehab",
+  "emoji": "👀",
+  "nameZh": "电脑眼疲劳恢复",
+  "nameEn": "Eye Fatigue Recovery",
+  "nameRu": "Восстановление усталости глаз",
+  "nameKk": "Көз шаршауын қалпына келтіру",
+  "duration": 5,
+  "level": "easy",
+  "groups": [
+   "office",
+   "student",
+   "rehab"
+  ],
+  "tipZh": "20-20-20法则，转移视线放松",
+  "tipEn": "20-20-20 rule, shift focus to relax",
+  "tipRu": "Правило 20-20-20, переведите взгляд",
+  "tipKk": "20-20-20 ережесі, көзді алыстатыңыз"
+ },
+ {
+  "id": 80,
+  "cat": "student",
+  "emoji": "📖",
+  "nameZh": "备考学生护眼操",
+  "nameEn": "Student Eye Care Routine",
+  "nameRu": "Гимнастика для глаз студента",
+  "nameKk": "Студент көзін қорғау жаттығуы",
+  "duration": 5,
+  "level": "easy",
+  "groups": [
+   "student"
+  ],
+  "tipZh": "学习间隙眼部放松，预防近视加深",
+  "tipEn": "Eye break during study, prevent myopia",
+  "tipRu": "Перерыв для глаз, предотвратите близорукость",
+  "tipKk": "Оқу кезінде көз үзілісі"
+ },
+ {
+  "id": 81,
+  "cat": "student",
+  "emoji": "🎒",
+  "nameZh": "书包背负姿势矫正",
+  "nameEn": "Backpack Posture Correction",
+  "nameRu": "Коррекция осанки с рюкзаком",
+  "nameKk": "Арқа сөмкесімен қалыпты түзету",
+  "duration": 6,
+  "level": "easy",
+  "groups": [
+   "student"
+  ],
+  "tipZh": "纠正单肩背包导致的脊柱侧弯",
+  "tipEn": "Fix scoliosis from uneven bag carrying",
+  "tipRu": "Исправьте сколиоз от неравномерного ношения",
+  "tipKk": "Теңсіз сөмке алып жүруден сколиозды түзету"
+ },
+ {
+  "id": 82,
+  "cat": "student",
+  "emoji": "🧠",
+  "nameZh": "专注力提升冥想",
+  "nameEn": "Focus Enhancement Meditation",
+  "nameRu": "Медитация для концентрации",
+  "nameKk": "Шоғырланды арттыру медитациясы",
+  "duration": 8,
+  "level": "easy",
+  "groups": [
+   "student",
+   "general"
+  ],
+  "tipZh": "5分钟正念，提升学习效率",
+  "tipEn": "5-min mindfulness, boost study efficiency",
+  "tipRu": "5 минут осознанности, улучшите концентрацию",
+  "tipKk": "5 минут зейін, оқу тиімділігін арттыру"
+ },
+ {
+  "id": 83,
+  "cat": "student",
+  "emoji": "💻",
+  "nameZh": "宿舍无器械减脂操",
+  "nameEn": "Dorm Room No-Equipment Workout",
+  "nameRu": "Тренировка в общежитии без инвентаря",
+  "nameKk": "Жатақханадағы жабдықсыз жаттығу",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "student"
+  ],
+  "tipZh": "小空间高效燃脂，不打扰室友",
+  "tipEn": "Small space fat burn, no noise for roommates",
+  "tipRu": "Эффективное сжигание в маленьком пространстве",
+  "tipKk": "Кіші кеңістікте тиімді май жағу"
+ },
+ {
+  "id": 101,
+  "cat": "gym_chest",
+  "emoji": "💪",
+  "nameZh": "卧推",
+  "nameEn": "Bench Press",
+  "nameRu": "Жим лёжа",
+  "nameKk": "Жатып басу",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "肩胛骨夹紧，背部微拱，杠铃触胸后推起",
+  "tipEn": "Retract scapula, slight arch, touch chest then press",
+  "tipRu": "Сведите лопатки, прогните спину, касайтесь груди",
+  "tipKk": "Жауырынды жиыңыз, кеудеге тиіп итеріңіз",
+  "gym": true
+ },
+ {
+  "id": 102,
+  "cat": "gym_chest",
+  "emoji": "🏋️",
+  "nameZh": "哑铃飞鸟",
+  "nameEn": "Dumbbell Fly",
+  "nameRu": "Разводка гантелей",
+  "nameKk": "Гантель жайылуы",
+  "duration": 10,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "肘关节微弯，感受胸肌拉伸，顶部夹胸",
+  "tipEn": "Slight elbow bend, feel chest stretch, squeeze at top",
+  "tipRu": "Слегка согните локти, растяните грудь",
+  "tipKk": "Шынтақты аздап иіп, кеудені сезіңіз",
+  "gym": true
+ },
+ {
+  "id": 103,
+  "cat": "gym_chest",
+  "emoji": "↗️",
+  "nameZh": "上斜卧推",
+  "nameEn": "Incline Press",
+  "nameRu": "Жим на наклонной",
+  "nameKk": "Еңкейіп басу",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "30-45度斜凳，重点刺激上胸",
+  "tipEn": "30-45 degree incline, targets upper chest",
+  "tipRu": "Наклон 30-45°, акцент на верх груди",
+  "tipKk": "30-45° еңкейту, жоғарғы кеуде",
+  "gym": true
+ },
+ {
+  "id": 110,
+  "cat": "gym_back",
+  "emoji": "🔙",
+  "nameZh": "引体向上",
+  "nameEn": "Pull-up",
+  "nameRu": "Подтягивание",
+  "nameKk": "Тартылу",
+  "duration": 10,
+  "level": "hard",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "肩胛骨下压，用背发力而非手臂",
+  "tipEn": "Depress scapula, pull with back not arms",
+  "tipRu": "Опустите лопатки, тяните спиной",
+  "tipKk": "Жауырынды төмен басып, арқамен тартыңыз",
+  "gym": true
+ },
+ {
+  "id": 111,
+  "cat": "gym_back",
+  "emoji": "🏋️",
+  "nameZh": "杠铃划船",
+  "nameEn": "Barbell Row",
+  "nameRu": "Тяга штанги в наклоне",
+  "nameKk": "Штанганы тарту",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "上身前倾45度，肘部贴紧躯干划向腰部",
+  "tipEn": "45° forward lean, row to waist keeping elbows tight",
+  "tipRu": "Наклон 45°, тяните к поясу",
+  "tipKk": "45° иілу, белге қарай тартыңыз",
+  "gym": true
+ },
+ {
+  "id": 112,
+  "cat": "gym_back",
+  "emoji": "📏",
+  "nameZh": "硬拉",
+  "nameEn": "Deadlift",
+  "nameRu": "Становая тяга",
+  "nameKk": "Жерден тарту",
+  "duration": 15,
+  "level": "hard",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "背部中立，髋关节铰链发力，杠铃贴腿",
+  "tipEn": "Neutral spine, hip hinge, bar stays close to legs",
+  "tipRu": "Нейтральный позвоночник, тяга тазобедренным суставом",
+  "tipKk": "Бейтарап омыртқа, жамбас белдеуімен тартыңыз",
+  "gym": true
+ },
+ {
+  "id": 113,
+  "cat": "gym_back",
+  "emoji": "🔽",
+  "nameZh": "高位下拉",
+  "nameEn": "Lat Pulldown",
+  "nameRu": "Тяга верхнего блока",
+  "nameKk": "Жоғарыдан тарту",
+  "duration": 12,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "肩胛骨下回旋，拉至锁骨，感受背阔肌收缩",
+  "tipEn": "Scapular depression, pull to clavicle, feel lats contract",
+  "tipRu": "Опустите лопатки, тяните к ключице",
+  "tipKk": "Жауырынды төмен, бұғанаға тартыңыз",
+  "gym": true
+ },
+ {
+  "id": 120,
+  "cat": "gym_shoulder",
+  "emoji": "🔺",
+  "nameZh": "哑铃肩推",
+  "nameEn": "Dumbbell Shoulder Press",
+  "nameRu": "Жим гантелей сидя",
+  "nameKk": "Гантельді иықтан басу",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "肘部90度，推至顶端不锁死",
+  "tipEn": "Elbows at 90°, press to top without locking out",
+  "tipRu": "Локти под 90°, жмите не блокируя",
+  "tipKk": "Шынтақ 90°, жоғарыға итеріңіз",
+  "gym": true
+ },
+ {
+  "id": 121,
+  "cat": "gym_shoulder",
+  "emoji": "↔️",
+  "nameZh": "侧平举",
+  "nameEn": "Lateral Raise",
+  "nameRu": "Подъём гантелей в стороны",
+  "nameKk": "Бүйірге көтеру",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "小拇指略高于大拇指，举至肩膀水平",
+  "tipEn": "Pinky slightly higher, raise to shoulder level",
+  "tipRu": "Мизинец чуть выше, поднимайте до уровня плеч",
+  "tipKk": "Кішкентай саусақ жоғарырақ, иық деңгейіне дейін",
+  "gym": true
+ },
+ {
+  "id": 122,
+  "cat": "gym_shoulder",
+  "emoji": "🔄",
+  "nameZh": "面拉",
+  "nameEn": "Face Pull",
+  "nameRu": "Тяга к лицу",
+  "nameKk": "Бетке тарту",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "绳索拉至面部，外旋肩关节，改善圆肩",
+  "tipEn": "Pull rope to face, externally rotate, fixes rounded shoulders",
+  "tipRu": "Тяните к лицу, вращайте плечи наружу",
+  "tipKk": "Бетке тартып, иықты сыртқа бұрыңыз",
+  "gym": true
+ },
+ {
+  "id": 130,
+  "cat": "gym_legs",
+  "emoji": "🦵",
+  "nameZh": "深蹲",
+  "nameEn": "Squat",
+  "nameRu": "Приседание",
+  "nameKk": "Отырып тұру",
+  "duration": 15,
+  "level": "hard",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "脚尖外展30度，膝盖跟随脚尖方向，蹲至大腿平行",
+  "tipEn": "Toes out 30°, knees track toes, squat to parallel",
+  "tipRu": "Носки под 30°, колени за носками, до параллели",
+  "tipKk": "Саусақтар 30°, тізелер саусақ бағытында",
+  "gym": true
+ },
+ {
+  "id": 131,
+  "cat": "gym_legs",
+  "emoji": "🦿",
+  "nameZh": "腿举",
+  "nameEn": "Leg Press",
+  "nameRu": "Жим ногами",
+  "nameKk": "Аяқпен басу",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "脚位中高，膝盖不内扣，推至接近伸直",
+  "tipEn": "Mid-high foot position, no knee cave, press to near extension",
+  "tipRu": "Ноги посередине-высоко, колени не внутрь",
+  "tipKk": "Орта-жоғары позиция, тізелер ішке емес",
+  "gym": true
+ },
+ {
+  "id": 132,
+  "cat": "gym_legs",
+  "emoji": "🏃",
+  "nameZh": "弓步蹲",
+  "nameEn": "Lunge",
+  "nameRu": "Выпад",
+  "nameKk": "Аяқты алға қою",
+  "duration": 12,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "前腿小腿垂直地面，后膝接近但不触地",
+  "tipEn": "Front shin vertical, rear knee near but not touching floor",
+  "tipRu": "Голень передней ноги вертикально",
+  "tipKk": "Алдыңғы балтыр тігінен",
+  "gym": true
+ },
+ {
+  "id": 133,
+  "cat": "gym_legs",
+  "emoji": "💡",
+  "nameZh": "腿弯举",
+  "nameEn": "Leg Curl",
+  "nameRu": "Сгибание ног",
+  "nameKk": "Аяқты иу",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "顶点夹紧腘绳肌，缓慢离心下放",
+  "tipEn": "Squeeze hamstrings at top, slow eccentric",
+  "tipRu": "Сожмите бицепс бедра вверху, медленно опускайте",
+  "tipKk": "Жоғарыда буынды қысыңыз",
+  "gym": true
+ },
+ {
+  "id": 134,
+  "cat": "gym_legs",
+  "emoji": "🏔️",
+  "nameZh": "提踵",
+  "nameEn": "Calf Raise",
+  "nameRu": "Подъём на носки",
+  "nameKk": "Саусаққа тұру",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "全程动作，顶部停顿1秒，感受小腿收缩",
+  "tipEn": "Full range, 1 second pause at top, feel calf contract",
+  "tipRu": "Полная амплитуда, пауза вверху 1 секунду",
+  "tipKk": "Толық қозғалыс, жоғарыда 1 секунд",
+  "gym": true
+ },
+ {
+  "id": 140,
+  "cat": "gym_arms",
+  "emoji": "💪",
+  "nameZh": "哑铃弯举",
+  "nameEn": "Dumbbell Curl",
+  "nameRu": "Сгибание с гантелями",
+  "nameKk": "Гантельмен иу",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "上臂固定，旋腕到顶，缓慢放下",
+  "tipEn": "Upper arm fixed, supinate at top, slow descent",
+  "tipRu": "Фиксируйте плечо, пронируйте вверху",
+  "tipKk": "Жоғарғы қолды бекітіп, баяу түсіріңіз",
+  "gym": true
+ },
+ {
+  "id": 141,
+  "cat": "gym_arms",
+  "emoji": "🔻",
+  "nameZh": "绳索下压",
+  "nameEn": "Tricep Pushdown",
+  "nameRu": "Разгибание на блоке",
+  "nameKk": "Блокта жазу",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "肘部固定于体侧，全程收缩肱三头",
+  "tipEn": "Lock elbows at sides, full tricep contraction",
+  "tipRu": "Зафиксируйте локти, полное сокращение трицепса",
+  "tipKk": "Шынтақты бекітіп, трицепсті толық қысыңыз",
+  "gym": true
+ },
+ {
+  "id": 142,
+  "cat": "gym_arms",
+  "emoji": "🧱",
+  "nameZh": "臂屈伸",
+  "nameEn": "Dips",
+  "nameRu": "Отжимания на брусьях",
+  "nameKk": "Арқалықта",
+  "duration": 12,
+  "level": "hard",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "略前倾针对胸部，直立针对三头",
+  "tipEn": "Lean forward for chest, upright for triceps",
+  "tipRu": "Наклон вперёд на грудь, прямо на трицепс",
+  "tipKk": "Алға иілу — кеуде, тік — трицепс",
+  "gym": true
+ },
+ {
+  "id": 150,
+  "cat": "gym_core_gym",
+  "emoji": "⚡",
+  "nameZh": "仰卧起坐",
+  "nameEn": "Sit-up",
+  "nameRu": "Скручивания",
+  "nameKk": "Жатып тұру",
+  "duration": 10,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "不要用颈部发力，腹肌主导，上背离地",
+  "tipEn": "Lead with abs not neck, upper back lifts",
+  "tipRu": "Работа животом, не шеей",
+  "tipKk": "Моймен емес, іш бұлшықетімен",
+  "gym": true
+ },
+ {
+  "id": 151,
+  "cat": "gym_core_gym",
+  "emoji": "🔀",
+  "nameZh": "俄罗斯转体",
+  "nameEn": "Russian Twist",
+  "nameRu": "Русские скручивания",
+  "nameKk": "Орыс бұрылуы",
+  "duration": 10,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "脚离地增加难度，旋转发力来自腰腹",
+  "tipEn": "Feet off floor for harder version, rotate from core",
+  "tipRu": "Ноги оторвите для сложнее, вращение от кора",
+  "tipKk": "Аяқты жерден алып, өзектен бұрылыңыз",
+  "gym": true
+ },
+ {
+  "id": 152,
+  "cat": "gym_core_gym",
+  "emoji": "📐",
+  "nameZh": "悬挂举腿",
+  "nameEn": "Hanging Leg Raise",
+  "nameRu": "Подъём ног в висе",
+  "nameKk": "Ілулі аяқ көтеру",
+  "duration": 12,
+  "level": "hard",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "控制摆动，腰椎不过伸，腹肌收缩发力",
+  "tipEn": "Control swing, no lumbar hyperextension, abs engage",
+  "tipRu": "Контролируйте качание, не переразгибайте поясницу",
+  "tipKk": "Тербелісті бақылаңыз, бел бұлшықеттерін жиыңыз",
+  "gym": true
+ },
+ {
+  "id": 160,
+  "cat": "gym_cardio",
+  "emoji": "🏃",
+  "nameZh": "跑步机",
+  "nameEn": "Treadmill",
+  "nameRu": "Беговая дорожка",
+  "nameKk": "Жүгіру жолы",
+  "duration": 30,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "心率维持最大心率65-75%，稳态有氧",
+  "tipEn": "Keep heart rate 65-75% max for steady-state cardio",
+  "tipRu": "Пульс 65-75% максимума для кардио",
+  "tipKk": "Жүрек соғысы максималдың 65-75%",
+  "gym": true
+ },
+ {
+  "id": 161,
+  "cat": "gym_cardio",
+  "emoji": "🚴",
+  "nameZh": "动感单车",
+  "nameEn": "Spin Bike",
+  "nameRu": "Велотренажёр",
+  "nameKk": "Велотренажер",
+  "duration": 25,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "调整座位高度，踩踏圆润流畅，间歇冲刺",
+  "tipEn": "Adjust seat height, smooth pedal stroke, interval sprints",
+  "tipRu": "Отрегулируйте сиденье, плавное педалирование",
+  "tipKk": "Отырғышты реттеңіз, бірқалыпты айналу",
+  "gym": true
+ },
+ {
+  "id": 162,
+  "cat": "gym_cardio",
+  "emoji": "🌊",
+  "nameZh": "划船机",
+  "nameEn": "Rowing Machine",
+  "nameRu": "Гребной тренажёр",
+  "nameKk": "Ескек тренажері",
+  "duration": 20,
+  "level": "med",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "腿→腰→臂 顺序发力，60%腿力驱动",
+  "tipEn": "Legs→hip→arms sequence, 60% power from legs",
+  "tipRu": "Ноги→таз→руки, 60% мощность ногами",
+  "tipKk": "Аяқ→жамбас→қол тәртібі",
+  "gym": true
+ },
+ {
+  "id": 170,
+  "cat": "gym_stretch",
+  "emoji": "🧘",
+  "nameZh": "泡沫轴放松",
+  "nameEn": "Foam Rolling",
+  "nameRu": "Миофасциальный релиз",
+  "nameKk": "Foam roller релаксациясы",
+  "duration": 10,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "在痛点停留30秒，不要在关节上滚动",
+  "tipEn": "Pause on tender spots 30s, avoid rolling on joints",
+  "tipRu": "Останавливайтесь на болезненных точках 30с",
+  "tipKk": "Ауырсыну нүктелерінде 30 секунд тоқтаңыз",
+  "gym": true
+ },
+ {
+  "id": 171,
+  "cat": "gym_stretch",
+  "emoji": "🤸",
+  "nameZh": "全身拉伸",
+  "nameEn": "Full Body Stretch",
+  "nameRu": "Растяжка всего тела",
+  "nameKk": "Толық дене созылуы",
+  "duration": 15,
+  "level": "easy",
+  "groups": [
+   "gym"
+  ],
+  "tipZh": "训练后拉伸，每个部位保持30秒",
+  "tipEn": "Post-workout stretch, hold each position 30s",
+  "tipRu": "Растяжка после тренировки, 30с каждая",
+  "tipKk": "Жаттығудан кейін, әр жерде 30 секунд",
+  "gym": true
+ }
+]

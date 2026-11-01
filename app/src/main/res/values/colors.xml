@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#16324F</color>
+    <color name="teal">#0E7C7B</color>
+    <color name="bg_soft">#F6F8FA</color>
+    <color name="chip_stroke">#D8E0E8</color>
+</resources>
