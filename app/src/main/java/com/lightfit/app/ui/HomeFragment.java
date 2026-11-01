@@ -52,6 +52,10 @@ public class HomeFragment extends Fragment {
                 ((MainActivity) requireActivity()).switchTo(R.id.nav_library));
         v.findViewById(R.id.btn_go_posture).setOnClickListener(x ->
                 ((MainActivity) requireActivity()).switchTo(R.id.nav_posture));
+        v.findViewById(R.id.btn_go_report).setOnClickListener(x ->
+                startActivity(new android.content.Intent(requireContext(), ReportActivity.class)));
+        v.findViewById(R.id.btn_go_coach).setOnClickListener(x ->
+                startActivity(new android.content.Intent(requireContext(), CoachActivity.class)));
         renderWeek(v, s);
     }
 

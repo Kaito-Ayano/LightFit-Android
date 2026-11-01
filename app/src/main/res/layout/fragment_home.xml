@@ -24,6 +24,14 @@
             android:layout_height="wrap_content" android:layout_marginTop="8dp"
             android:text="@string/nav_posture" />
 
+        <Button android:id="@+id/btn_go_report" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="@string/lf_tab_report" />
+
+        <Button android:id="@+id/btn_go_coach" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            android:text="@string/lf_tab_coach" />
+
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:layout_marginTop="28dp" android:text="@string/lf_week_title"
             android:textSize="16sp" android:textStyle="bold" />

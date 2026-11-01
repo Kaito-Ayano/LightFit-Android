@@ -37,7 +37,7 @@ public class BarView extends View {
     }
 
     public void setData(int[] d) {
-        if (d != null && d.length == 7) data = d.clone();
+        if (d != null && d.length >= 1) data = d.clone();
         invalidate();
     }
 
@@ -48,14 +48,17 @@ public class BarView extends View {
         float h = getHeight();
         int max = 1;
         for (int v : data) max = Math.max(max, v);
-        float bw = w / 7f;
-        for (int i = 0; i < 7; i++) {
+        float bw = w / data.length;
+        int step = Math.max(1, data.length / 7);
+        for (int i = 0; i < data.length; i++) {
             if (data[i] > 0) {
                 float bh = (h - 44f) * data[i] / max;
                 canvas.drawRoundRect(bw * i + bw * 0.18f, h - 34f - bh,
                         bw * (i + 1) - bw * 0.18f, h - 34f, 10f, 10f, bar);
             }
-            canvas.drawText(String.valueOf(i + 1), bw * i + bw / 2f, h - 10f, label);
+            if (i % step == 0 || i == data.length - 1) {
+                canvas.drawText(String.valueOf(i + 1), bw * i + bw / 2f, h - 10f, label);
+            }
         }
     }
 }
