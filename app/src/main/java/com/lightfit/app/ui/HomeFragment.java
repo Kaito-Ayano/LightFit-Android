@@ -82,5 +82,18 @@ public class HomeFragment extends Fragment {
             stats.setText(sessions + " " + getString(R.string.done) + " · "
                     + minutes + " " + getString(R.string.lf_minutes_unit));
         }
+        ((TextView) v.findViewById(R.id.home_streak)).setText(getString(R.string.lf_streak)
+                + " " + streak(buckets));
+    }
+
+    /** 连续打卡天数：今天有记录则连到今天，否则从昨天起算（宽松口径） */
+    private int streak(int[] buckets) {
+        int n = 0;
+        if (buckets[6] == 0) {
+            for (int i = 5; i >= 0 && buckets[i] > 0; i--) n++;
+        } else {
+            for (int i = 6; i >= 0 && buckets[i] > 0; i--) n++;
+        }
+        return n;
     }
 }

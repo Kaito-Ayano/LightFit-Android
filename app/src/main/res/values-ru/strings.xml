@@ -353,4 +353,12 @@
     <string name="lf_scan_last">Последний скан</string>
     <string name="lf_week_title">7 дней (минуты)</string>
     <string name="lf_week_empty">Записей за неделю нет</string>
+    <string name="lf_player_title">Начать тренировку</string>
+    <string name="lf_player_ready">Готов</string>
+    <string name="lf_player_start">Старт</string>
+    <string name="lf_player_pause">Пауза</string>
+    <string name="lf_player_next">Далее</string>
+    <string name="lf_player_prev">Назад</string>
+    <string name="lf_player_finish">🎉 Готово! Отличная работа!</string>
+    <string name="lf_streak">🔥 Серия дней</string>
 </resources>

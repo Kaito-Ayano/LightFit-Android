@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="24dp">
+
+    <TextView
+        android:id="@+id/player_emoji"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" android:layout_marginTop="48dp"
+        android:textSize="72sp" />
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" android:layout_marginTop="16dp"
+        android:textSize="22sp" android:textStyle="bold" android:gravity="center" />
+
+    <TextView
+        android:id="@+id/player_tip"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" android:textSize="14sp" android:gravity="center" />
+
+    <ProgressBar
+        android:id="@+id/player_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="24dp"
+        android:layout_marginTop="36dp" android:max="1000" />
+
+    <TextView
+        android:id="@+id/player_count"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" android:layout_marginTop="8dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_prev"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/lf_player_prev" />
+
+        <Button
+            android:id="@+id/btn_start_pause"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1.6" android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" android:text="@string/lf_player_start" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/lf_player_next" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/player_idx"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" android:layout_marginTop="24dp"
+        android:textSize="13sp" />
+</LinearLayout>

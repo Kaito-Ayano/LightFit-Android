@@ -353,4 +353,12 @@
     <string name="lf_scan_last">Last scan</string>
     <string name="lf_week_title">Last 7 days (minutes)</string>
     <string name="lf_week_empty">No sessions this week yet</string>
+    <string name="lf_player_title">Start training</string>
+    <string name="lf_player_ready">Ready</string>
+    <string name="lf_player_start">Start</string>
+    <string name="lf_player_pause">Pause</string>
+    <string name="lf_player_next">Next</string>
+    <string name="lf_player_prev">Previous</string>
+    <string name="lf_player_finish">🎉 All done, great work today!</string>
+    <string name="lf_streak">🔥 Day streak</string>
 </resources>

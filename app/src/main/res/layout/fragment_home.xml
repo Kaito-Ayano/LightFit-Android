@@ -38,6 +38,10 @@
             android:layout_marginTop="4dp" android:text="@string/lf_week_empty"
             android:textSize="13sp" />
 
+        <TextView android:id="@+id/home_streak"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:textSize="14sp" android:textStyle="bold" />
+
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:layout_marginTop="20dp" android:text="@string/auth_privacy" android:textSize="12sp" />
     </LinearLayout>

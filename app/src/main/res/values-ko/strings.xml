@@ -353,4 +353,12 @@
     <string name="lf_scan_last">최근 스캔</string>
     <string name="lf_week_title">최근 7일 (분)</string>
     <string name="lf_week_empty">이번 주 기록이 없습니다</string>
+    <string name="lf_player_title">훈련 시작</string>
+    <string name="lf_player_ready">준비</string>
+    <string name="lf_player_start">시작</string>
+    <string name="lf_player_pause">일시정지</string>
+    <string name="lf_player_next">다음</string>
+    <string name="lf_player_prev">이전</string>
+    <string name="lf_player_finish">🎉 모두 완료! 오늘도 훌륭해요!</string>
+    <string name="lf_streak">🔥 연속 달성</string>
 </resources>

@@ -353,4 +353,12 @@
     <string name="lf_scan_last">Соңғы скан</string>
     <string name="lf_week_title">Соңғы 7 күн (минут)</string>
     <string name="lf_week_empty">Осы аптада жазба жоқ</string>
+    <string name="lf_player_title">Жаттығуды бастау</string>
+    <string name="lf_player_ready">Дайын</string>
+    <string name="lf_player_start">Бастау</string>
+    <string name="lf_player_pause">Кідірту</string>
+    <string name="lf_player_next">Келесі</string>
+    <string name="lf_player_prev">Алдыңғы</string>
+    <string name="lf_player_finish">🎉 Барлығы дайын! Тамаша!</string>
+    <string name="lf_streak">🔥 Қатарынан күн</string>
 </resources>

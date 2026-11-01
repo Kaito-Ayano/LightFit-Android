@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.content.Intent;
+
 import com.lightfit.app.R;
 import com.lightfit.app.data.Exercise;
 import com.lightfit.app.data.ExerciseRepository;
@@ -92,6 +94,8 @@ public class PlanFragment extends Fragment {
                     + "   " + e.duration + " " + getString(R.string.lf_minutes_unit));
             row.setTextSize(15);
             row.setPadding(8, 10, 8, 10);
+            row.setOnClickListener(x -> startActivity(
+                    new Intent(requireContext(), PlanPlayerActivity.class)));
             list.addView(row);
         }
 
