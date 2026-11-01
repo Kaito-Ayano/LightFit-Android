@@ -35,7 +35,11 @@
 
         <Button android:id="@+id/btn_ai_camera" android:layout_width="match_parent"
             android:layout_height="wrap_content" android:layout_marginTop="20dp"
-            android:enabled="false" android:text="@string/lf_ai_camera_beta" />
+            android:text="@string/posture_title" />
+
+        <TextView android:id="@+id/tv_last_scan"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:textSize="12sp" />
 
         <LinearLayout android:id="@+id/assess_result_layout"
             android:layout_width="match_parent" android:layout_height="wrap_content"

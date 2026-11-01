@@ -51,6 +51,24 @@ public class PlanFragment extends Fragment {
         v.findViewById(R.id.btn_generate).setOnClickListener(x -> generate(v));
     }
 
+    /** 训练日志：本地加密存储，仅 {天序号, 分钟}，上限 500 条 */
+    private void appendHistory(int minutes) {
+        SecureStore s = new SecureStore(requireContext());
+        String raw = s.get(requireContext(), "history_log", "[]");
+        try {
+            org.json.JSONArray arr = new org.json.JSONArray(raw);
+            org.json.JSONObject e = new org.json.JSONObject();
+            e.put("t", java.time.LocalDate.now().toEpochDay());
+            e.put("m", minutes);
+            org.json.JSONArray out = new org.json.JSONArray();
+            out.put(e);
+            for (int i = Math.max(0, arr.length() - 499); i < arr.length(); i++) {
+                out.put(arr.get(i));
+            }
+            s.put(requireContext(), "history_log", out.toString());
+        } catch (Exception ignored) { }
+    }
+
     private void generate(View v) {
         if (mood == 0 || body == 0) {
             Toast.makeText(requireContext(), R.string.lf_plan_empty, Toast.LENGTH_SHORT).show();
@@ -86,6 +104,7 @@ public class PlanFragment extends Fragment {
             save.put("done", 0);
         } catch (Exception ignored) { }
         new SecureStore(requireContext()).put(requireContext(), "today_plan", save.toString());
+        appendHistory(r.minutes);
         Toast.makeText(requireContext(), R.string.lf_saved, Toast.LENGTH_SHORT).show();
     }
 }

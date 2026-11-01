@@ -14,7 +14,10 @@ import com.lightfit.app.MainActivity;
 import com.lightfit.app.R;
 import com.lightfit.app.store.SecureStore;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
+
+import java.time.LocalDate;
 
 public class HomeFragment extends Fragment {
 
@@ -49,5 +52,35 @@ public class HomeFragment extends Fragment {
                 ((MainActivity) requireActivity()).switchTo(R.id.nav_library));
         v.findViewById(R.id.btn_go_posture).setOnClickListener(x ->
                 ((MainActivity) requireActivity()).switchTo(R.id.nav_posture));
+        renderWeek(v, s);
+    }
+
+    /** 近 7 天训练柱状图 + 汇总（BP 的 Report 模块轻量版） */
+    private void renderWeek(View v, SecureStore s) {
+        int[] buckets = new int[7];
+        int sessions = 0, minutes = 0;
+        long today = LocalDate.now().toEpochDay();
+        try {
+            JSONArray arr = new JSONArray(s.get(requireContext(), "history_log", "[]"));
+            for (int i = 0; i < arr.length(); i++) {
+                JSONObject e = arr.getJSONObject(i);
+                long day = e.optLong("t", -1);
+                int m = e.optInt("m", 0);
+                int idx = (int) (day - today) + 6;
+                if (idx >= 0 && idx < 7) {
+                    buckets[idx] += m;
+                    sessions++;
+                    minutes += m;
+                }
+            }
+        } catch (Exception ignored) { }
+        ((com.lightfit.app.ui.BarView) v.findViewById(R.id.week_bar)).setData(buckets);
+        TextView stats = v.findViewById(R.id.home_week_stats);
+        if (sessions == 0) {
+            stats.setText(R.string.lf_week_empty);
+        } else {
+            stats.setText(sessions + " " + getString(R.string.done) + " · "
+                    + minutes + " " + getString(R.string.lf_minutes_unit));
+        }
     }
 }

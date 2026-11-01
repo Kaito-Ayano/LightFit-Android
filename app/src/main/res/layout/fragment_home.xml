@@ -25,6 +25,20 @@
             android:text="@string/nav_posture" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:layout_marginTop="28dp" android:text="@string/auth_privacy" android:textSize="12sp" />
+            android:layout_marginTop="28dp" android:text="@string/lf_week_title"
+            android:textSize="16sp" android:textStyle="bold" />
+
+        <com.lightfit.app.ui.BarView
+            android:id="@+id/week_bar"
+            android:layout_width="match_parent" android:layout_height="140dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView android:id="@+id/home_week_stats"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:text="@string/lf_week_empty"
+            android:textSize="13sp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:text="@string/auth_privacy" android:textSize="12sp" />
     </LinearLayout>
 </ScrollView>

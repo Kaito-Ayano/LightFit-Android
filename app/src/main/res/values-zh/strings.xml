@@ -345,4 +345,12 @@
     <string name="lf_level">强度</string>
     <string name="lf_minutes_unit">分钟</string>
     <string name="lf_detail_title">动作详情</string>
+    <string name="lf_scan_tilt">肩线倾斜</string>
+    <string name="lf_scan_head">头前伸指标</string>
+    <string name="lf_scan_no_pose">未检测到人体，请正对摄像头</string>
+    <string name="lf_scan_need_cam">需要摄像头权限</string>
+    <string name="lf_scan_save">保存本次扫描</string>
+    <string name="lf_scan_last">最近扫描</string>
+    <string name="lf_week_title">近 7 天训练（分钟）</string>
+    <string name="lf_week_empty">本周还没有训练记录</string>
 </resources>

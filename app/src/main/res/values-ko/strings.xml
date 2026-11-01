@@ -345,4 +345,12 @@
     <string name="lf_level">강도</string>
     <string name="lf_minutes_unit">분</string>
     <string name="lf_detail_title">운동 상세</string>
+    <string name="lf_scan_tilt">어깨 기울기</string>
+    <string name="lf_scan_head">머리 전방 지수</string>
+    <string name="lf_scan_no_pose">사람이 감지되지 않았습니다</string>
+    <string name="lf_scan_need_cam">카메라 권한이 필요합니다</string>
+    <string name="lf_scan_save">스캔 저장</string>
+    <string name="lf_scan_last">최근 스캔</string>
+    <string name="lf_week_title">최근 7일 (분)</string>
+    <string name="lf_week_empty">이번 주 기록이 없습니다</string>
 </resources>

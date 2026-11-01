@@ -345,4 +345,12 @@
     <string name="lf_level">Деңгей</string>
     <string name="lf_minutes_unit">мин</string>
     <string name="lf_detail_title">Жаттығу туралы</string>
+    <string name="lf_scan_tilt">Иық қисаюы</string>
+    <string name="lf_scan_head">Бас алға шығу</string>
+    <string name="lf_scan_no_pose">Дене табылмады, камераға қараңыз</string>
+    <string name="lf_scan_need_cam">Камера рұқсаты қажет</string>
+    <string name="lf_scan_save">Сканды сақтау</string>
+    <string name="lf_scan_last">Соңғы скан</string>
+    <string name="lf_week_title">Соңғы 7 күн (минут)</string>
+    <string name="lf_week_empty">Осы аптада жазба жоқ</string>
 </resources>

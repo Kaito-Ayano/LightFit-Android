@@ -345,4 +345,12 @@
     <string name="lf_level">Level</string>
     <string name="lf_minutes_unit">min</string>
     <string name="lf_detail_title">Exercise details</string>
+    <string name="lf_scan_tilt">Shoulder tilt</string>
+    <string name="lf_scan_head">Head-forward index</string>
+    <string name="lf_scan_no_pose">No body detected, face the camera</string>
+    <string name="lf_scan_need_cam">Camera permission required</string>
+    <string name="lf_scan_save">Save this scan</string>
+    <string name="lf_scan_last">Last scan</string>
+    <string name="lf_week_title">Last 7 days (minutes)</string>
+    <string name="lf_week_empty">No sessions this week yet</string>
 </resources>
